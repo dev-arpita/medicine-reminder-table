@@ -50,3 +50,23 @@ td > input {
     border: 0;
     min-width: 400px;
 }
+.timing-box, .times-box {
+    display: flex;
+    gap: 2rem;
+
+}
+.table-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+@media screen and (max-width: 599px) {
+    .table-row {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .date-input, .user-name{
+        display: inline-block;
+        /* min-width: 100%; */
+    }
+    
+}
